@@ -27,7 +27,7 @@ export default function App() {
 
         <div className="hero">
           <h1>ScalroFood Recipes</h1>
-          <p>Welcome to ScalroFood!</p>
+          <h3>Welcome to ScalroFood!</h3>
         </div>
 
         <FoodRecipes recipes={recipes} />

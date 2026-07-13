@@ -55,6 +55,12 @@
 
 .hero h1 {
   font-size: clamp(2rem, 5vw, 4rem);
+  color: orangered;
+}
+.hero h3 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  color: #21581c;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {
