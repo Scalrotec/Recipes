@@ -44,7 +44,7 @@ function Navbar() {
         <li>About</li>
         <li>Contact</li>
       </ul>
-      <h3>Login</h3>
+      <h3>Explore More</h3>
     </nav>
   );
 }
