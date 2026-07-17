@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import "./App.css";
 
 export default function App() {
@@ -23,8 +24,6 @@ export default function App() {
   return (
     <div className="app">
       <div className="container">
-        <Navbar />
-
         <div className="hero">
           <h1>ScalroFood Recipes</h1>
           <h3>Welcome to ScalroFood!</h3>
@@ -33,19 +32,6 @@ export default function App() {
         <FoodRecipes recipes={recipes} />
       </div>
     </div>
-  );
-}
-
-function Navbar() {
-  return (
-    <nav className="navbar">
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-      <h3>Explore More</h3>
-    </nav>
   );
 }
 
